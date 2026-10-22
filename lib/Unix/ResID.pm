@@ -7,6 +7,9 @@ use XSLoader;
 
 XSLoader::load(__PACKAGE__, __PACKAGE__->VERSION);
 
+use Exporter 'import';
+our @EXPORT_OK = qw/getresuid setresuid getresgid setresgid/;
+
 1;
 
 # ABSTRACT: Set all UIDs/GIDs safely
