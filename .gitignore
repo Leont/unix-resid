@@ -1,0 +1,4 @@
+/.build/
+/Unix-ResID-*/
+/Unix-ResID-*.tar.gz
+!/.gitignore
